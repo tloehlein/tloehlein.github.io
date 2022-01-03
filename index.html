@@ -1,178 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head lang="de">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Thomas Loehlein</title>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-114861074-1"
-    />
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+	<head lang="de">
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>Thomas Loehlein</title>
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114861074-1"/>
+				<script>
+					  window.dataLayer = window.dataLayer || [];
+					  function gtag(){dataLayer.push(arguments);}
+					  gtag('js', new Date());
 
-      gtag('config', 'UA-114861074-1');
-    </script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
-    />
-    <link 
-      rel="stylesheet" 
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
-      crossorigin="anonymous">					
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <style>
-      html, body {
-      	height: 100%;
-      	padding-bottom: 70px;
-      	background-color: #124e40;
-      }
+					  gtag('config', 'UA-114861074-1');
+				</script>	
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+					<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+						<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+							<style>
+								html, body {
+									height: 100%;
+									padding-bottom: 70px;
+									background-color: #124e40; 
+								}
 
-      .bg-custom-color {
-      	background-color: #124e40;
-      }
-    </style>
-  </head>
-  <body>
-    <div
-      class="
-        d-flex
-        p-3
-        px-md-4
-        text-white
-        border-bottom
-        shadow-sm
-        bg-custom-color
-      "
-    >
-      <ul class="nav mx-auto d-flex justify-content-center align-items-center">
-        <li class="nav-item pr-5">
-          <a class="navbar-brand text-white" href="./">
-            <img src="logo_inv_small.png" alt="Logo" title="Logo" />Thomas
-            L&ouml;hlein</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#services">LEISTUNGEN</a>
-        </li>
-        <!--li class="nav-item">
-					<a class="nav-link text-white" href="#about">ÜBER</a>
-				  </li-->
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#contact">KONTAKT</a>
-        </li>
-      </ul>
-    </div>
-    <!--div class="container-fluid border-bottom bg-light" style="min-height: 420px;">	
-		</div-->
-    <div class="container-fluid rounded-lg bg-custom-color">
-      <div
-        class="
-          desc-header
-          px-3
-          py-3
-          pt-md-5
-          pb-md-4
-          mx-auto
-          text-white text-center
-          font-weight-bold
-        "
-      >
-        <h1 id="services">LEISTUNGEN</h1>
-      </div>
-      <div class="container">
-        <div class="card-deck">
-          <div class="card mb-4 box-shadow">
-            <div class="card-header text-center">
-              <h4 class="my-0 font-weight-bold">SQL SERVER</h4>
-            </div>
-            <div class="card-body">
-              <ul class="font-weight-bold" style="list-style-type: square;">
-                <li>Data Architektur</li>
-                <li>Data-Warehouse</li>
-                <li>Data-Mart</li>
-                <li>SSIS / ETL</li>
-                <li>Performance Tuning</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header text-center">
-              <h4 class="my-0 font-weight-bold">QLIKVIEW</h4>
-            </div>
-            <div class="card-body">
-              <ul class="font-weight-bold" style="list-style-type: square;">
-                <li>Architektur</li>
-                <li>Installation</li>
-                <li>Beratung</li>
-                <li>Entwicklung</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--div class="container-fluid bg-light rounded-lg" style="min-height: 420px;">
-			<div class="desc-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center font-weight-bold">
-				<h1 id="about">ÜBER</h1>
-			</div>
-		</div-->
-    <div class="container-fluid bg-custom-color">
-      <div
-        class="
-          desc-header
-          px-3
-          py-3
-          pt-md-5
-          pb-md-4
-          mx-auto
-          text-white text-center
-          font-weight-bold
-        "
-      >
-        <h1 id="contact">KONTAKT</h1>
-      </div>
-      <div class="row vertical-middle text-center mx-auto w-50 pb-3">
-        <div class="col-sm">
-          <a class="text-white" href="mailto:thomas@loehlein.me">
-            <i class="fas fa-envelope-square fa-7x" style="color: white;" />
-            <br />
-            thomas@loehlein.me
-          </a>
-        </div>
-        <div class="col-sm">
-          <a href="https://www.linkedin.com/in/thomas-loehlein">
-            <i
-              class="fab fa-linkedin fa-7x"
-              style="color: white;"
-              title="LinkedIn: Thomas Loehlein"
-            />
-          </a>
-        </div>
-        <div class="col-sm">
-          <a href="https://www.xing.com/profile/Thomas_Loehlein/">
-            <i
-              class="fab fa-xing-square fa-7x"
-              style="color: white;"
-              title="Xing: Thomas Loehlein"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-    <footer class="navbar fixed-bottom py-3 bg-light">
-      <div class="row text-center container-fluid">
-        <div class="col-sm font-small">
-          <a href="imprint_de.html">IMPRESSUM</a>|<a
-            href="privacy_policy_de.html"
-            >DATENSCHUTZERKL&Auml;RUNG</a
-          >
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+								.bg-custom-color { 
+									background-color: #124e40; 
+								}
+							</style>
+						</head>
+						<body>
+							<div class="d-flex p-3 px-md-4 text-white border-bottom shadow-sm bg-custom-color">
+								<ul class="nav mx-auto d-flex justify-content-center align-items-center">
+									<li class="nav-item pr-5">			 
+										<a class="navbar-brand text-white" href="./">
+											<img src="logo_inv_small.png" alt="Logo" title="Logo" /> Thomas L&ouml;hlein</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#services">LEISTUNGEN</a>
+									</li>
+									<!--li class="nav-item">
+										<a class="nav-link text-white" href="#about">ÜBER</a>
+									  </li-->
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#contact">KONTAKT</a>
+									</li>
+								</ul>
+							</div>	
+
+							<!--div class="container-fluid border-bottom bg-light" style="min-height: 420px;">	
+							</div-->	
+
+							<div class="container-fluid rounded-lg bg-custom-color">
+								<div class="desc-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-white text-center font-weight-bold">
+									<h1 id="services">LEISTUNGEN</h1>
+								</div>		
+								<div class="container">
+									<div class="card-deck">
+										<div class="card mb-4 box-shadow">
+											<div class="card-header text-center">
+												<h4 class="my-0 font-weight-bold">SQL SERVER</h4>
+											</div>
+											<div class="card-body">
+												<ul class="font-weight-bold" style="list-style-type: square;">
+													<li>Data Architektur</li>
+													<li>Data-Warehouse</li>
+													<li>Data-Mart</li>
+													<li>SSIS / ETL</li>
+													<li>Performance Tuning</li>
+												</ul>
+											</div>
+										</div>
+										<div class="card mb-4 box-shadow">
+											<div class="card-header text-center">
+												<h4 class="my-0 font-weight-bold">QLIKVIEW</h4>
+											</div>
+											<div class="card-body">
+												<ul class="font-weight-bold" style="list-style-type: square;">
+													<li>Architektur</li>
+													<li>Installation</li>
+													<li>Beratung</li>
+													<li>Entwicklung</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--div class="container-fluid bg-light rounded-lg" style="min-height: 420px;">
+								<div class="desc-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center font-weight-bold">
+									<h1 id="about">ÜBER</h1>
+								</div>
+							</div-->	
+
+							<div class="container-fluid bg-custom-color">
+								<div class="desc-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-white text-center font-weight-bold">
+									<h1 id="contact">KONTAKT</h1>
+								</div>
+								<div class="row vertical-middle text-center mx-auto w-50 pb-3">
+									<div class="col-sm">
+										<a class="text-white" href="mailto:thomas@loehlein.me">
+											<i class="fas fa-envelope-square fa-7x" style="color: white;"></i>
+											<br />
+											thomas@loehlein.me</a>
+										</div>
+										<div class="col-sm">
+											<a href="https://www.linkedin.com/in/thomas-loehlein">
+												<i class="fab fa-linkedin fa-7x" style="color: white;" title="LinkedIn: Thomas Loehlein"></i>
+											</a>
+										</div>
+										<div class="col-sm">
+											<a href="https://www.xing.com/profile/Thomas_Loehlein/">
+												<i class="fab fa-xing-square fa-7x" style="color: white;" title="Xing: Thomas Loehlein"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<footer class="navbar fixed-bottom py-3 bg-light">
+									<div class="row text-center container-fluid">
+										<div class="col-sm font-small">
+											<a href="imprint_de.html">IMPRESSUM</a> | <a href="privacy_policy_de.html">DATENSCHUTZERKL&Auml;RUNG</a>
+										</div>
+									</div>
+								</footer>
+							</body>
+</html>							
